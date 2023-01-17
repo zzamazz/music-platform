@@ -15,7 +15,7 @@ import { TrackModule } from './track/track.module';
     ConfigModule.forRoot({
       isGlobal: true
     }),
-    MongooseModule.forRoot('mongodb+srv://admin:admin@cluster0.hzcwacq.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot(process.env.MONGO_URL),
     TrackModule,
     FileModule
   ],
