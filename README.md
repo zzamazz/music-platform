@@ -24,7 +24,6 @@
 
 ## Description
 Simple back-end for music platform
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
